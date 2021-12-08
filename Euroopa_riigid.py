@@ -1,2 +1,2 @@
 from module1 import*
-
+Countries={"Albaania","Andorra","Armeenia","Aserbaidžaan","Austria","Belgia","Bulgaaria","Eesti","Gruusia","Hispaania","Holland","Horvaatia","Iirimaa","Island","Itaalia","Kasahstan","Kreeka","Kreeka","Küpros","Leedu","Liechtenstein","Luksemburg","Läti","Põhja-Makedoonia","Malta","Moldova","Monaco","Montenegro","Norra","Poola","Portugal","Rootsi","Rumeenia","Saksamaa","San Marino","Serbia","Slovakkia","Soome","Suurbritannia","Šveits","Taani","Tšehhi","Türgi","Ukraina","Ungari","Valgevene","Vatikan","Venemaa"}
