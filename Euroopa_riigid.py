@@ -1,2 +1,26 @@
-from module1 import*
-Countries={"Albaania":"Tirana","Andorra":"Andorra la Vella","Armeenia":"Jerevan","Aserbaidžaan":"Bakuu","Austria":"Viin","Belgia":"Brüssel","Bosnia ja Hertsegoviina":"Sarajevo","Bulgaaria":"Sofia","Eesti":"Tallinn","Gruusia":"Tallinn","Hispaania":"Madrid","Holland":"Amsterdam","Horvaatia":"Zagreb","Iirimaa":"Dublin","Island":"Reykjavík","Itaalia":"Rooma","Kasahstan":"Nur-Sultan","Kreeka":"Ateena","Küpros":"Nikosia","Leedu":"Nikosia","Liechtenstein":"Vaduz","Luksemburg":"Luxembourg","Läti":"Riia","Põhja-Makedoonia":"Skopje","Malta":"	Valletta","Moldova":"Chisinau","Monaco":"Monaco","Montenegro":"Podgorica","Norra":"Oslo","Poola":"Varssavi","Portugal":"Lissabon","Prantsusmaa":"Pariis","Rootsi":"Stockholm","Rumeenia":"Bukarest","Saksamaa":"Berliin","San Marino":"San Marino","Serbia":"Belgrad","Slovakkia":"Ljubljana","Soome":"Helsingi","Suurbritannia","Šveits","Taani","Tšehhi","Türgi","Ukraina","Ungari","Valgevene","Vatikan","Venemaa"}
+from gtts import gTTS
+import os
+sonastik={}
+riigid=[]
+linnad=[]
+file=open("riigid_pealinnad.txt",'r')
+for line in fil:
+    k, v=line.strip().split('-') 
+    sonastik[k.strip()]=v.strip()#"Riik":"Pealinn"
+    sonastik2[v.strip()]=k.strip()#"Pealinn":"Riik"
+    riigid.append(k)
+    linnad.append(sonastik[k.strip()])
+file.close()
+print(sonastik)
+#print("Riigid:")
+print(riigid)
+#print("Pealinnad:")
+print(linnad)
+n=randit(0,50)
+print(riigit)
+s=gTTS(text=linnad[0],lang='et',slow=True).save("heli.mp3")
+os.system("heli.mp3")
+
+
+
+a=input()
